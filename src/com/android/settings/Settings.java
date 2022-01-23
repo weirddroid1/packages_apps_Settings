@@ -818,4 +818,7 @@ public class Settings extends SettingsActivity {
             }
         }
     }
+
+    // AICP Activities
+    public static class StartAeActivity extends SettingsActivity {}
 }
