@@ -47,7 +47,7 @@ class LineageVersionDetailPreference :
         get() = R.string.os_firmware_version_purpose
 
     override val title: Int
-        get() = org.lineageos.platform.internal.R.string.lineage_version
+        get() = R.string.aicp_version
 
     override val indexable
         get() = false
