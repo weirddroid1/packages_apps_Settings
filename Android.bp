@@ -132,9 +132,6 @@ android_library {
         // Lineage dependencies
         "org.lineageos.platform.internal",
         "LineagePreferenceLib",
-
-        "AicpGear-preference",
-        "AicpGear-util",
     ],
 
     plugins: [
@@ -170,7 +167,6 @@ android_library {
         "device_policy_aconfig_flags",
         "keyboard_flags",
     ],
-    additional_manifests: ["AndroidManifest-Aicp.xml"],    
     lint: {
         baseline_filename: "lint-baseline.xml",
     },
